@@ -8,4 +8,6 @@ apt-get install -y --no-install-recommends  \
     curl                                    \
     git                                     \
     gnupg                                   \
-    nano
+    nano                                    \
+    openssh-client                          \
+    socat
