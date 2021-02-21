@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  develop:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspace:cached
+      - user-prefs:/home/developer
+
+volumes:
+  user-prefs:

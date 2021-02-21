@@ -1,0 +1,20 @@
+{
+	"name": "SpringBoot Development Sandbox",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "develop",
+	"workspaceFolder": "/workspace",
+	"remoteEnv": {
+		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"eamodio.gitlens",
+		"dotjoshjohnson.xml",
+		"vscjava.vscode-java-pack",
+		"redhat.fabric8-analytics",
+		"pivotal.vscode-spring-boot",
+		"vscjava.vscode-spring-initializr"
+	]
+}
