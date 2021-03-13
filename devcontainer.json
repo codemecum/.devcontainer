@@ -10,6 +10,7 @@
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 	"extensions": [
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+		"redhat.vscode-yaml"
 	]
 }

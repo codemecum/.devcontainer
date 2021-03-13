@@ -9,5 +9,6 @@ RUN build-scripts/run-scripts \
 USER developer
 WORKDIR /workspace
 
-ENTRYPOINT []
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+ENTRYPOINT [ "entrypoint.sh" ]
 CMD [ "sleep", "infinity" ]
