@@ -11,9 +11,3 @@ WORKDIR /workspace
 
 ENTRYPOINT []
 CMD [ "sleep", "infinity" ]
-
-ENV JDK_HOME="/usr/local/jdk" \
-    MAVEN_HOME="/usr/share/maven"
-
-ENV JAVA_HOME="$JDK_HOME" \
-    PATH="$JDK_HOME/bin:$MAVEN_HOME/bin:$PATH"
